@@ -1,3 +1,19 @@
+/* Common */
+
+#jumbotron a, #foot_site a {
+    text-decoration: none;
+    
+}
+
+.my_container {
+    width: 80%;
+    margin: auto;
+}
+
+.line {
+    width: 15%;
+    height: 3px;
+}
 :root {
     --bofre-black: #000000;
     --bofre-dark: #2c3e50;
@@ -19,21 +35,43 @@
 }
 
 
+/* Color */
 
-#heat_site {
+#heat_site, .foot_copy {
+    height: 90px;
     background-color: var(--bofre-dark);
+    color: var(--bofre-white);
 }
 
 #jumbotron, #about {
     background-color: var(--bofre-succes);
 }
 
+.foot_links {
+    background-color: var(--bofre-light);
+}
+
 #jumbotron a {
-    text-decoration: none;
     color: var(--bofre-white);
 }
 
+.start a {
+    color: var(--bofre-succes);
+} 
 
 
 
+
+.area {
+    background-color: red;
+    height: 100px;
+
+}
+
+.social {
+    width: 2rem;
+    border: 1px solid;
+    border-radius: 50%;
+    line-height: 2rem;
+}
 
