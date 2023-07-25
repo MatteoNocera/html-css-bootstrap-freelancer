@@ -11,3 +11,11 @@
 #heat_site {
     background-color: var(--bofre-dark);
 }
+
+#jumbotron, #about {
+    background-color: var(--bofre-succes);
+}
+
+.debug section {
+    height: 500px;
+}
