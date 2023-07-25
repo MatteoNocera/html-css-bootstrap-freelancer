@@ -1,0 +1,13 @@
+:root {
+    --bofre-black: #000000;
+    --bofre-dark: #2c3e50;
+    --bofre-light: #3a546d;
+    --bofre-succes: #1abc9c;
+    --bofre-white: #ffffff;
+
+}
+
+
+#heat_site {
+    background-color: var(--bofre-dark);
+}
