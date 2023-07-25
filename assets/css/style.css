@@ -1,8 +1,11 @@
-/* Common */
+/* #region Common */
 
-#jumbotron a, #foot_site a {
-    text-decoration: none;
-    
+:root {
+    --bofre-black: #000000;
+    --bofre-dark: #2c3e50;
+    --bofre-light: #3a546d;
+    --bofre-succes: #1abc9c;
+    --bofre-white: #ffffff;
 }
 
 .my_container {
@@ -14,16 +17,11 @@
     width: 15%;
     height: 3px;
 }
-:root {
-    --bofre-black: #000000;
-    --bofre-dark: #2c3e50;
-    --bofre-light: #3a546d;
-    --bofre-succes: #1abc9c;
-    --bofre-white: #ffffff;
 
-}
+/* #endregion Common */
 
-/* Debug */
+
+/* #region Debug */
 
 .debug section {
     height: 500px;
@@ -34,8 +32,10 @@
     background-color: greenyellow;
 }
 
+/* #endregion Debug */
 
-/* Color */
+
+/* #region Color */
 
 #heat_site, .foot_copy {
     height: 90px;
@@ -51,22 +51,7 @@
     background-color: var(--bofre-light);
 }
 
-#jumbotron a {
-    color: var(--bofre-white);
-}
-
-.start a {
-    color: var(--bofre-succes);
-} 
-
-
-
-
-.area {
-    background-color: red;
-    height: 100%;
-
-}
+/* #endregion Color */
 
 .social {
     width: 2rem;
@@ -75,3 +60,11 @@
     line-height: 2rem;
 }
 
+section {
+    padding: 2rem 0;
+}
+
+#about .btn {
+    color: var(--bofre-white);
+    border: 1px solid var(--bofre-white);
+}
