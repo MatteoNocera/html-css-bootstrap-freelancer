@@ -7,14 +7,7 @@
 
 }
 
-
-#heat_site {
-    background-color: var(--bofre-dark);
-}
-
-#jumbotron, #about {
-    background-color: var(--bofre-succes);
-}
+/* Debug */
 
 .debug section {
     height: 500px;
@@ -24,3 +17,23 @@
     height: 100px;
     background-color: greenyellow;
 }
+
+
+
+#heat_site {
+    background-color: var(--bofre-dark);
+}
+
+#jumbotron, #about {
+    background-color: var(--bofre-succes);
+}
+
+#jumbotron a {
+    text-decoration: none;
+    color: var(--bofre-white);
+}
+
+
+
+
+
