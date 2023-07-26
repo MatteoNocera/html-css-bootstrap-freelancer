@@ -18,6 +18,17 @@
     height: 3px;
 }
 
+section {
+    padding: 2rem 0;
+}
+
+.foot_links .social {
+    width: 2rem;
+    border: 1px solid;
+    border-radius: 50%;
+    line-height: 2rem;
+}
+
 /* #endregion Common */
 
 
@@ -40,7 +51,6 @@
 #heat_site, .foot_copy {
     background-color: var(--bofre-dark);
     color: var(--bofre-white);
-    /* height: 90px; */
 }
 
 #heat_site nav a {
@@ -61,22 +71,18 @@
 
 /* #endregion Color */
 
-.social {
-    width: 2rem;
-    border: 1px solid;
-    border-radius: 50%;
-    line-height: 2rem;
-}
+/* #region Buttons */
 
-section {
-    padding: 2rem 0;
-}
-
-#about .btn {
+.my_btn_page {
     color: var(--bofre-white);
-    border: 1px solid var(--bofre-white);
+    background-color: var(--bofre-succes);
+    border-color:  var(--bofre-white);
 }
-#about button:hover {
-    background-color: var(--bofre-white);
+
+.my_btn_page:hover {
     color: var(--bofre-succes);
+    background-color: var(--bofre-white);
+    border-color: var(--bofre-succes);
 }
+
+/* #endregion Buttons */
