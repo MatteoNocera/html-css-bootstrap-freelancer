@@ -51,6 +51,10 @@
     background-color: var(--bofre-light);
 }
 
+.foot_links a {
+    color: var(--bofre-succes);
+}
+
 /* #endregion Color */
 
 .social {
@@ -67,4 +71,8 @@ section {
 #about .btn {
     color: var(--bofre-white);
     border: 1px solid var(--bofre-white);
+}
+#about button:hover {
+    background-color: var(--bofre-white);
+    color: var(--bofre-succes);
 }
