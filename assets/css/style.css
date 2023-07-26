@@ -38,8 +38,11 @@
 /* #region Color */
 
 #heat_site, .foot_copy {
-    height: 90px;
     background-color: var(--bofre-dark);
+    color: var(--bofre-white);
+}
+
+#heat_site nav a {
     color: var(--bofre-white);
 }
 
